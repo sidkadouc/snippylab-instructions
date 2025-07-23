@@ -8,7 +8,7 @@ A key focus of this lab is making Snippy's capabilities accessible in two ways:
 - Through standard HTTP APIs 
 - As **Tools** consumable by AI agents like GitHub Copilot using the **Model Context Protocol (MCP)**
 
-![Lab Architecture](./Instructions1_files/snippy-architecture-diagram.png)
+![Lab Architecture](./imgs/snippy-architecture-diagram.png)
 
 ## Prerequisites
 
@@ -41,7 +41,7 @@ Your lab environment comes pre-configured with:
 
 1. From Edge, in the Snippy tab, select **Fork → Create fork** (this will prompt you to sign in to your GitHub account)
 2. **Uncheck** "Copy the main branch only" as we will be working with the **build-2025** branch
-   ![Uncheck Copy Main](./Instructions1_files/1-gh-uncheck-copy-main.png)
+   ![Uncheck Copy Main](./imgs/1-gh-uncheck-copy-main.png)
 3. After the fork completes, validate the HTTPS URL of your fork
    - Example: `https://github.com/YOUR-USERNAME/snippy.git`
 
